@@ -54,8 +54,8 @@ CREATE TABLE TARGET_ORDER_SUMMARY( CUSTOMER_ID INT,
 							SALESMAN_NAME VARCHAR(30), 
 							ORD_NO INT,
 							PURCH_AMT FLOAT)
-
-SELECT * FROM TARGET_ORDER_SUMMARY
+SELECT * FROM SALESMAN
+SELECT * FROM CUSTOMER
 
 
 --1. From the following tables write a SQL query to find the salesperson and customer who belongs to same city. 
